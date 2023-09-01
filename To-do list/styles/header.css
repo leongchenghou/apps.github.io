@@ -1,0 +1,48 @@
+.page-title{
+  text-align: center;
+  font-size: 35px;
+  cursor: default;
+  font-weight: 700;
+}
+
+.todo-input-grid{
+  display: grid;
+  grid-template-columns: 1fr 100px;
+  margin: 30px 30px;
+}
+
+.task-input{
+  height: 40px;
+  border: none;
+  border-radius: 20px;
+  padding: 0px 20px;
+  background-color: #282828;
+  margin-right: 20px;
+  color: white;
+  font-family: 'Roboto Mono';
+}
+
+.add-button{
+  border: none;
+  border-radius: 20px;
+  background-color: #bb86fc;
+  color: #121212;
+  cursor: pointer;
+  font-family: 'Roboto Mono';
+  font-weight: bold;
+}
+
+.add-button-plus{
+  display: none;
+  border: none;
+  border-radius: 20px;
+  height: 40px;
+  width: 40px;
+  
+  background-color: #bb86fc;
+  color: #121212;
+  cursor: pointer;
+  font-family: 'Roboto Mono';
+  font-weight: bold;
+}
+

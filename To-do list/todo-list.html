@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Todo</title>
+  <link rel="stylesheet" href="styles/header.css">
+  <link rel="stylesheet" href="styles/general.css">
+  <link rel="stylesheet" href="styles/todo-list.css">
+  <link rel="stylesheet" href="styles/link-button.css">
+
+  <link rel="icon" href="app-icon.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="main">
+    <div class="page-title">To-Do List</div>
+    <div class="todo-input-grid">
+      <input placeholder="Add your task" class="task-input js-task-input">
+      <button class="add-button js-add-button">Add</button>
+      <button class="add-button-plus js-add-button-plus">+</button>
+    </div>
+
+    <div class="todo-grid"></div>
+    <div class="column-a js-column-a">Completed</div>
+    <div class="column-b js-column-b"></div>
+    <div class="column-c js-column-c">
+      <div class="yes-button js-yes-button"></div>
+      <div class="no-button js-no-button"></div>
+    </div>
+
+
+  </div>
+  <div class="credit">Created by ivan leong.</div>
+  <script src="scripts/todo-list.js"></script>
+  <script src="scripts/add-button.js"></script>
+  <script src="scripts/completed-button.js"></script>
+  <script src="scripts/clear-button.js"></script>
+</body>
+
+</html>

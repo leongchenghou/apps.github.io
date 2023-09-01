@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Simple Calculator</title>
+  <link rel="stylesheet" href='calc.css'>
+  <link rel="icon" href="app-icon.png">
+</head>
+
+<body>
+  <div class="title">Simple Calculator Project</div>
+  <div class="container">
+    <div class="display-container">
+      <p class="js-display display"></p>
+    </div>
+    <div class="button-grid">
+      <button class="operator" onclick="
+        updateCalculation('');
+      ">C</button>
+      <button class="operator" onclick="
+        updateCalculation('/');
+      ">&#xF7;</button>
+      <button class="operator" onclick="
+        updateCalculation('*');
+      ">&times;</button>
+      <button class="operator delete-button" onclick="
+        updateCalculation('DEL');
+      ">DEL</button>
+
+      <button onclick="
+        updateCalculation('7');
+      ">7</button>
+      <button onclick="
+        updateCalculation('8');
+      ">8</button>
+      <button onclick="
+        updateCalculation('9');
+      ">9</button>
+      <button class="operator" onclick="
+        updateCalculation('-');
+      ">-</button>
+
+      <button onclick="
+        updateCalculation('4');
+      ">4</button>
+      <button onclick="
+        updateCalculation('5');
+      ">5</button>
+      <button onclick="
+        updateCalculation('6');
+      ">6</button>
+      <button class="operator" onclick="
+        updateCalculation('+');
+      ">+</button>
+
+      <button onclick="
+        updateCalculation('1');
+      ">1</button>
+      <button onclick="
+        updateCalculation('2');
+      ">2</button>
+      <button onclick="
+        updateCalculation('3');
+      ">3</button>
+      <button class="operator" onclick="
+        updateCalculation('%');
+      ">%</button>
+
+      <button onclick="
+        updateCalculation('0');
+      ">0</button>
+      <button onclick="
+        updateCalculation('.');
+      ">.</button>
+      <button class="equal-button" onclick="
+        updateCalculation('=');
+      ">=</button>
+
+    </div>
+  </div>
+  <div class="credit">Created by ivan leong.</div>
+  <script src="calc.js"></script>
+</body>
+
+</html>
